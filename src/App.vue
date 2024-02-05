@@ -5,6 +5,7 @@
       <router-link to="/about">About</router-link>
     </nav>
     <router-view/>
+    <a class="hrefs" href="https:wa.me/94774690541?text=shehan+web+">Developed by @ Shehan rajapaksha</a>
   </div>
 </template>
 
@@ -21,7 +22,7 @@ nav {
   padding: 30px;
 }
 
-nav a {
+nav a, .hrefs {
   font-weight: bold;
   color: #2c3e50;
 }
